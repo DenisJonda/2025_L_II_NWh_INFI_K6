@@ -27,3 +27,5 @@ workflows:
     jobs: 
 
       - build-and-test
+
+run: make docker_build 

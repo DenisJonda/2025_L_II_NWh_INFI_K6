@@ -1,3 +1,5 @@
+deps:
+	pip install -r requirements.txt
 docker_build:
 	docker build -t hello-world-printer .
 docker_run: docker_build
